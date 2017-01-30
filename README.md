@@ -26,7 +26,7 @@ class Component extends React.Component {
                 url="https://api.github.com/users/beardedtim"
             >
                 {/* We must pass child as a function and it must return null, string, or React Comp*/}
-                {(data: user) => user && (
+                {user => user && (
                     <GitHubProfile 
                         user={user}
                     />
