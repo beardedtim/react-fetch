@@ -1,5 +1,5 @@
 {
-    "name": "react-fetch",
+    "name": "@beardedtim/react-fetch",
     "version": "0.1.0",
     "description": "A React component for making Fetch requests",
     "repository": {
